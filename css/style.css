@@ -5,11 +5,14 @@
   list-style: none;
 }
 .body{
-  font-family: 'Fira Sans', sans-serif;
+  font-family: poppins;
 }
 .menu{
   width: 1500px;
   margin: auto;
+}
+.logo{
+  float: left;
 }
 .header{                               
   width:100%;
@@ -39,17 +42,24 @@
   text-transform: uppercase;
 }
 .title{
-  width: 111px;
+  width: 69px;
   color: rgba(255,255,255,1);
   position: relative;
   top: 0px;
-  left: 0px;
-  font-family: Inter;
-  font-weight: Bold;
+  left: 146px;
   font-size: 25px;
   opacity: 1;
   text-align: left;
 }
 .h1{
-
+  width: 69px;
+  color: rgba(255,255,255,1);
+  position: relative;
+  top: 0px;
+  left: 146px;
+  font-family: Inter;
+  font-weight: Bold;
+  font-size: 25px;
+  opacity: 1;
+  text-align: left;
 }
