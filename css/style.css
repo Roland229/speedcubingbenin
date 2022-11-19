@@ -7,13 +7,6 @@
 .body{
   font-family: poppins;
 }
-.menu{
-  width: 1500px;
-  margin: auto;
-}
-.logo{
-  float: left;
-}
 .header{                               
   width:100%;
   height: 100%;
@@ -27,39 +20,107 @@
   top: 0px;
   overflow: hidden;
 }
+.logo{
+  position: absolute;
+  width: 134px;
+  height: 164px;
+  left: 90px;
+  top: 23px;
+}
+.menu{
+  width: 1550px;
+  margin: 70px;
+  display: flex;
+  flex-direction: row-reverse;
+}
 .navbar{
   float: right;
   list-style: none;
-  margin-top: 0px;
+  margin-top: 10px;
 }
 .navbar li{
   display: inline-block;
 }
 .navbar li a{
   color: #fff;
-  padding: 5px 20px;
-  font-size: 16px;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 20px;
   text-transform: uppercase;
 }
-.title{
-  width: 69px;
-  color: rgba(255,255,255,1);
-  position: relative;
-  top: 0px;
-  left: 146px;
-  font-size: 25px;
-  opacity: 1;
-  text-align: left;
+.navbar li a :hover{
+  background: #fff;
+  color: #000;
 }
-.h1{
-  width: 69px;
-  color: rgba(255,255,255,1);
+h1{
+  position: absolute;
+  width: 716px;
+  height: 103px;
+  left: 90px;
+  top: 267px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 68px;
+  line-height: 119.02%;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+p{
+  position: absolute;
+  width: 692px;
+  height: 300px;
+  left: 94px;
+  top: 400px;
+  font-family: 'Mada';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 114.78%;
+  color: #E8E9E8
+}
+.cube{
+  position: absolute;
+  width: 547px;
+  height: 575px;
+  left: 900px;
+  top: 200px;
+}
+.btn1{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 15px;
+  gap: 10px;
   position: relative;
-  top: 0px;
-  left: 146px;
-  font-family: Inter;
-  font-weight: Bold;
+  width: 290px;
+  height: 65px;
+  left: 94px;
+  top: 770px;
   font-size: 25px;
-  opacity: 1;
-  text-align: left;
+  border: 2px solid #DBDF24;
+  border-radius: 15px;
+}
+.btn2{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  gap: 15px;
+  position: absolute;
+  width: 177px;
+  height: 65px;
+  left: 420px;
+  top: 770px;
+  font-size: 22px;
+  background: rgba(33, 133, 196, 0.97);
+  border: 2px solid #DBDF24;
+  border-radius: 10px;
 }
