@@ -1,15 +1,17 @@
-*{
+* {
   margin: 0;
   padding: 0;
   text-decoration: none;
   list-style: none;
 }
+
 .body {
-  font-family: -apple-system, BlinkMacSystemFont,'Segoe UI', Roboto,
-   Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
 .background {
-  width:100%;
+  width: 100%;
   height: 100%;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -21,8 +23,9 @@
   top: 0px;
   overflow: hidden;
 }
-.header {                               
-}
+
+.header {}
+
 .navbar {
   width: 1860px;
   margin: 10px;
@@ -34,43 +37,77 @@
   box-sizing: border-box;
   position: absolute;
 }
-.navbar a{
-  color: white;
-  display: inline-block;
+
+.navbar {
+
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
 .logo {
   position: absolute;
+  padding: 0px 0px;
   width: 1000px;
   left: 100px;
   top: 10px;
-} 
-.logo img{
+}
+
+.logo img {
   width: 20%;
 }
+
 .navbar .nav-links ul {
-  display: flex;
+  float: right;
+  margin-right: 20px;
   text-decoration: none;
   padding: 10px 15px;
-  text-transform: uppercase;
-  
 }
+
+
 .nav-links ul li {
-  margin: 10px 20px;
-  padding: 10px;
-  font-size: 28px;
-  
+  margin: 0px 8px;
+  padding: 0px;
+  display: inline-block;
+  line-height: 50px;
 }
-.nav-links ul li a :hover{
-  background: #FFF;
-  color: #000;
+
+.nav-links ul li a {
+  color: white;
+  font-size: 25px;
+ 
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+
 }
-h1{
+
+a.active,
+a:hover {
+  background: rgb(136, 135, 135);
+  padding: 15px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  transition: .5s;
+}
+
+.nav-links ul li :hover {
+  background: rgb(136, 135, 135);
+  color: rgb(252, 252, 252);
+  padding: 15px;
+  gap: 15px;
+  transition: all 0.4s;
+
+}
+
+
+h1 {
   position: absolute;
   width: 900px;
   height: 500px;
   left: 90px;
   top: 65px;
-  font-size: 85px;
+  font-size: 88px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   line-height: 119.02%;
   display: flex;
   align-items: center;
@@ -79,25 +116,30 @@ h1{
   text-transform: uppercase;
   color: #FFFFFF;
 }
-p{
+
+p {
   position: absolute;
   width: 900px;
   height: 350px;
   left: 94px;
   top: 370px;
   font-weight: 500;
-  font-size: 50px;
-  line-height: 110.78%;
+  font-size: 45.5px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  line-height: 119.78%;
   color: #E8E9E8
-} 
-.cube{
+}
+
+.cube {
   position: absolute;
-  width: 748px;
+  width: 700px;
   height: 700px;
   left: 1065px;
   top: 200px;
 }
-.btn1{
+
+.btn1 {
   position: absolute;
   color: #FFF;
   display: flex;
@@ -108,13 +150,22 @@ p{
   height: 65px;
   left: 94px;
   top: 785px;
-  font-size: 29px;
+  font-size: 25px;
   background: rgba(0, 0, 0, 0, 0.02em);
+  background-color: rgb(113, 113, 113);
   border: 1px solid #DBDF24;
   border-radius: 15px;
   box-sizing: border-box;
+  transition: all 0.5s;
+  cursor: pointer;
 }
-.btn2{
+
+.btn1:hover {
+  background-color: #f9f9f9;
+  color: rgb(7, 7, 7);
+}
+
+.btn2 {
   position: absolute;
   color: #FFF;
   box-sizing: border-box;
@@ -129,8 +180,15 @@ p{
   height: 65px;
   left: 420px;
   top: 785px;
-  font-size: 29px;
+  font-size: 25px;
   background: rgba(33, 133, 196, 0.97);
   border: 2px solid #DBDF24;
   border-radius: 15px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.btn2:hover {
+  background-color: #f9f9f9;
+  color: rgb(7, 7, 7);
 }
